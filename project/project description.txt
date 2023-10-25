@@ -1,0 +1,45 @@
+1007681126 - Jenna Jiang
+1008066012 - Yi (Iris) Zou
+
+Link to zoom video: 
+https://utoronto.zoom.us/rec/share/4FHFiwyQBMncj-Th14IKDbxb0FX5wO_R6MWoAvx4KvqHJJ2F93_3VdYAz93AYvF3.lPv3RKTBrnQyjAYI?startTime=1669654874000
+Passcode: v@e!2%p2Lx
+
+Imported Modules Required:
+    import pandas as pd
+    import matplotlib.pyplot as plt
+    import numpy as np
+    import csv
+    from csv import reader
+    from csv import writer
+    
+Required External Files:
+    Dataset available from: https://www.kaggle.com/datasets/martj42/international-football-results-from-1872-to-2017
+
+How to Run the Code:
+    There are FOUR options from the menu that a user could choose from:
+    
+        1. "HR" - the Historical Results of a Particular Country
+           - The user will be prompted to input a country of their interests to display the historical results of wins, losses, and draws since 1993 in a bar chart.
+           - An extension of this option is to add another country of the user's interests to display a comparison chart between the two countries.
+           - Function involved:
+               <check_country(chosen_country)>: if the user inputs a country that cannot be found in the given excel file, the program will return a message to ask the user for another valid input.
+               <histresults(chosen_country)>: loop through the entire csv file to filter out rows containing the input country (create a new list for the country), then loop through the filtered list to calculate wins, losses, and draws.
+        
+        2.  "TT" - the Total Winners for World Cup Teams and the Top 20 Team Scores among them
+            - The two choices will be given for users to decide on taking, the input will present two diagrams showing the Total Scores for each World Cup Teams or the Top 20 Team's Scores. Teams will be presented in different colors. 
+            - The 'p' function will be presenting the Top 20 winning teams ever participating in World Cup Tournament, the winning condition will be including both the friendly matches and  the FIFA World Tournament.
+            - The 't' function will be presenting the Top 20 scoring teams in the file, the scoring teams will only be counted if they are the winning teams of the current match.
+        
+        3. "PR" - Predict Winners of FIFA 2022
+           - The user can choose two countries of their choice to compare their past results and calculate their probability of winning.
+           - Calculation involved:
+               <country_scores>: win = 3; lose = 0; draw = 1. Use the previous function of histresults(chosen_country) to calculate the total scores of each country
+               <country_avg> = country_scores / Num_of_matches; Divide the total scores by the number of matches played to get the average score of each country
+               <country_winning_prob> = country1_avg / (country1_avg + country2_avg); Find the ratio of winning between the two countries ~~ probability of winning.
+        
+        4. "ADD" - Add New Results as the FIFA 2022 is ongoing
+           - User can choose this function to add new results to the given CSV file (writer!)
+           - User will be prompted to input the date, home team, away team, the scores of each team, and other valuable information to add additional rows to the CSV file.
+                                              
+    

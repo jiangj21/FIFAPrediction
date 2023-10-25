@@ -1,0 +1,142 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:02.250
+Jenna Jiang: Oh, 3, 2 one start. Okay.
+
+2
+00:00:02.950 --> 00:00:19.219
+Jenna Jiang: This project aims to predict the winner of fifa, 2,022 world cup games, using the data set international matches available on Kaggle. It's linked right here, and the idea is inspired by the current. If you find in Qatar as well as the Chicago pose referenced over here.
+
+3
+00:00:19.730 --> 00:00:27.539
+Jenna Jiang: These are the modules imported that will be basically using used for graphing and also Csv reading and writing.
+
+4
+00:00:29.630 --> 00:00:41.010
+Jenna Jiang: The user will be presented with 4 functions. The first one is getting a historical results of a particular country. For example, if we choose Hr.
+
+5
+00:00:41.600 --> 00:00:49.649
+Jenna Jiang: the user will be prompted to typing in a country that of their interest. But, however, if we input a
+
+6
+00:00:49.670 --> 00:01:02.639
+Jenna Jiang: country that is not part of the given file, it will be giving an output of country not found. Please enter a valid country name. This is made available by this function. Check country, chosen country that we created.
+
+7
+00:01:02.860 --> 00:01:06.839
+Jenna Jiang: So let's try a valid country which is Argentina.
+
+8
+00:01:09.080 --> 00:01:22.449
+Jenna Jiang: This will be the graph shown to to to show the wins losses and draws of Argentina since 1,993, basically counting all number of matches played by Argentina in the given file.
+
+9
+00:01:23.250 --> 00:01:38.180
+Jenna Jiang: An extended way of this function is to compare the results. For example, we choose Mexico as a second function. It will give a comparison of historical results in a var of chart, so that the user can better visualize their results. 150,
+
+10
+00:01:40.970 --> 00:01:46.619
+Yi Zou: so the second function will be Tt: the total winners of the workout teams and the top.
+
+11
+00:01:46.750 --> 00:01:49.080
+Yi Zou: 22 scoring among them.
+
+12
+00:01:49.780 --> 00:01:52.500
+Yi Zou: The user will be given 2 choices
+
+13
+00:01:52.690 --> 00:01:58.779
+Yi Zou: which will be presenting the top 20 winning teams ever participating in the World Cup tournament
+
+14
+00:01:59.010 --> 00:02:02.750
+Yi Zou: or the top 20 scoring teams. In the 5
+
+15
+00:02:02.880 --> 00:02:07.950
+Yi Zou: the winning condition will be, including both the friendly matches and the fever award tournaments.
+
+16
+00:02:10.590 --> 00:02:12.709
+Jenna Jiang: This is the P. Function.
+
+17
+00:02:13.620 --> 00:02:15.480
+Yi Zou: and this is
+
+18
+00:02:15.640 --> 00:02:18.050
+Jenna Jiang: the T function.
+
+19
+00:02:21.570 --> 00:02:28.629
+Jenna Jiang: The third menu option that the user will be given is to predict the results between 2 given countries.
+
+20
+00:02:28.800 --> 00:02:32.399
+Jenna Jiang: The user will be prompted to enter a country
+
+21
+00:02:32.550 --> 00:02:38.050
+Jenna Jiang: of their interest. For example, Last week Japan played against
+
+22
+00:02:38.180 --> 00:02:39.490
+Jenna Jiang: Germany.
+
+23
+00:02:42.040 --> 00:02:44.580
+Jenna Jiang: and the second country will be Germany.
+
+24
+00:02:44.990 --> 00:02:55.039
+Jenna Jiang: and if they wanted to predict the results between these 2 countries, we will loop through the entire given file to find each country's total scores, and the number of 150,
+
+25
+00:02:55.050 --> 00:03:05.239
+Jenna Jiang: and the number of matches played to get their average scores, and from average scores we get their probability with a concluding sentence of which country has a higher probability to win.
+
+26
+00:03:08.860 --> 00:03:15.829
+Yi Zou: So the last function will be asking whether the user wants to add new match to resort to the file.
+
+27
+00:03:16.140 --> 00:03:21.390
+Yi Zou: The user will be showing a series of questions, asking them on what date was the match
+
+28
+00:03:22.030 --> 00:03:29.489
+Yi Zou: on the home team for the away teams and where the area the both teams of
+
+29
+00:03:29.590 --> 00:03:31.990
+Yi Zou: and what the scores they scored.
+
+30
+00:03:32.210 --> 00:03:34.859
+Yi Zou: all the results
+
+31
+00:03:35.080 --> 00:03:39.770
+Yi Zou: recorded to the Csb files we opened from the beginning.
+
+32
+00:03:40.230 --> 00:03:44.479
+Jenna Jiang: Yes, these are an example that we input it, and that will
+
+33
+00:03:44.610 --> 00:03:47.020
+Jenna Jiang: become part of the given Cs file.
+
+34
+00:03:47.080 --> 00:03:49.990
+Jenna Jiang: And if you want to end the program, I type in a
+
+35
+00:03:50.840 --> 00:03:52.090
+Jenna Jiang: okay perfect.
+
